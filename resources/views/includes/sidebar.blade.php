@@ -1,6 +1,4 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
-
     <style>
         .sidebar {
             width: 150px;
@@ -26,9 +24,8 @@
             text-decoration: none;
         }
 
-        /* Adjust the margin for content wrapper to make space for the sidebar */
         .content-wrapper {
-            margin-left: 250px; /* Equal to the width of the sidebar */
+            margin-left: 250px;
         }
 
 
@@ -58,10 +55,7 @@
                         <p>Assets</p>
                     </a>
                 </li>
-                <!-- Add more sidebar menu items as needed -->
             </ul>
         </nav>
-        <!-- /.sidebar-menu -->
     </div>
-    <!-- /.sidebar -->
 </aside>

@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your App Title</title>
+    
+    <!-- X-UA-Compatible meta tag for specifying the rendering engine compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- CSS stylesheets -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
+    <!-- Additional head scripts or meta tags can go here -->
 </head>
-<body class="hold-transition sidebar-mini layout">
-    <div class="wrapper">
-        @include('includes.navbar')
-        @include('includes.sidebar')
+<body>
+    
+    <!-- Include the navbar -->
+    @include('includes.navbar')
+    
+    <!-- Include the main sidebar -->
+    @include('includes.sidebar')
 
-        <!-- Content Wrapper. Contains page content -->
-        {{-- <div class="content-wrapper">
-            @yield('content')
-        </div> --}}
-
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-        </aside>
-        <!-- /.control-sidebar -->
-    </div>
-    <!-- ./wrapper -->
-
-    <!-- your scripts -->
+    <!-- Your app content goes here -->    
+    <!-- JavaScript files -->
+    <script src="{{ asset('js/app.js') }}"></script>
+    
+    <!-- Additional scripts -->
 </body>
 </html>
