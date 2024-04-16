@@ -1,4 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a class="brand-link text-center">
+        <span class="brand-text font-weight-light ">Absence Here!</span>
+    </a>
     <style>
         .sidebar {
             width: 150px;
@@ -33,6 +36,14 @@
 
     <!-- Sidebar -->
     <div class="sidebar">
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">      
+                <img
+                    class="img-circle elevation-2"
+                    alt="User Image"
+                />
+            </div>
+        </div>
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
